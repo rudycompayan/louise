@@ -50,6 +50,9 @@
                                 <td>{{ $user->gender }}</td>
                                 <td>{{ $user->age }}</td>
                                 <td>
+                                    <input type="hidden" id="link{{ $user->user_id }}" value="{{ $user->fb_profile }}">
+                                    <a href="{{ route('admin.user.edit', $user->user_id) }}"
+                                       class="btn btn-success btn-xs cc_copy" id="{{ $user->user_id }}" title="Copy Link"><i class="fa fa-copy"></i></a>
                                     <a href="{{ route('admin.user.edit', $user->user_id) }}"
                                        class="btn btn-success btn-xs" title="Edit User"><i class="fa fa-edit"></i></a>
                                     <a href="#" class="btn btn-danger btn-xs btnUserDelete"
@@ -109,6 +112,18 @@
 
             $('#deleteId').val($id);
 
+        });
+
+        $(".cc_copy").click(function(e) {
+            e.preventDefault();
+            var url = $("#link"+$(this).attr('id')).val();
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val(url).select();
+            document.execCommand("copy");
+            $temp.remove();
+            $(this).children().removeClass('fa-copy');
+            $(this).children().addClass('fa-check');
         });
     </script>
 @endsection

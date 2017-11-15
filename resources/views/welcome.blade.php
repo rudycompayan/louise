@@ -101,7 +101,7 @@
                                     </ul>
                                 </li>
 
-                                <li><a href="#rsvp">RSVP/Contact</a></li>
+                                <li @if ($guest->status != 0 || !$guest->id) style='display:none' @endif><a href="#rsvp">RSVP/Contact</a></li>
                             </ul>
                         </nav>
                         <!-- END MAIN MENU -->
@@ -884,7 +884,7 @@
                             <section class="highlighted">
                                 <h3><i class="icon icon-arrow-right"></i>Will you be attending the wedding?<i class="icon icon-arrow-left"></i></h3>
                                 <div data-value="attending_wedding" class="radio-lilac col-sm-12">
-                                    <button class="btn btn-default active" data-value="yes"><i class="fa fa-smile-o"></i>Yes</button>
+                                    <button class="btn btn-default" data-value="yes"><i class="fa fa-smile-o"></i>Yes</button>
                                     <button class="btn btn-default" data-value="no"><i class="fa fa-frown-o"></i>No</button>
                                 </div>
                                 {{--<div class="col-sm-6">
@@ -895,14 +895,16 @@
                                 </div>--}}
                             </section>
 
-                            <section>
+                            <section class="rsvp-details">
+                                @if($guest->age > 0)
                                 <h3><i class="icon icon-arrow-right"></i>Who else is comming with you?<i class="icon icon-arrow-left"></i></h3>
                                 <div class="col-md-8">
                                     <input type="text" name="guest" id="guest" placeholder="GUEST NAME" class="form-control" />
                                 </div>
                                 <div class="col-md-4">
-                                    <button id="add_guest" class="btn btn-color add_button" data-input="guest" data-wrapper="guest_list">+ Add Guest</button>
+                                    <button id="add_guest" class="btn btn-color add_button" data-input="guest" data-wrapper="guest_list">+ Add <span id="guest-count">({{ $guest->age }})</span> Guest</button>
                                 </div>
+                                @endif
                                <div id="guest_list" class="add_list col-md-12" data-count="2">
                                     <div class="input-group">
                                         <input type="text" class="form-control" name="guest_1" value="{{ $guest->first_name.' '.$guest->last_name }}" />
@@ -911,7 +913,7 @@
                                 </div>
                             </section>
 
-                            <section class="highlighted">
+                            <section class="highlighted rsvp-details">
                                 <div class="col-sm-12">
                                     <textarea name="Message" placeholder="LEAVE A NOTE (OPTIONAL)" class="form-control"></textarea>
                                     <div class="form_status_message"></div>
@@ -919,7 +921,7 @@
                             </section>
                         </div>
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                        <div class="center">
+                        <div class="center rsvp-details">
                             <button type="submit" class="btn ribbon btn-color submit_form"><span class="line_above"></span><i class="icon icon-arrow-right"></i>Submit<i class="icon icon-arrow-left"></i></button>
                         </div>
                     </form>
@@ -996,6 +998,20 @@
         "use strict";
 
         $(document).ready(function () {
+
+            $('.rsvp-details').hide();
+
+            $('.btn-default').click(function () {
+                if($(this).data('value') == "no")
+                {
+                    $('.submit_form').click();
+                }
+                else
+                {
+                    $('.rsvp-details').show();
+                    return false;
+                }
+            });
 
             Lilac = {
 
@@ -2010,6 +2026,11 @@
                             $input.addClass("invalid");
                             return false;
                         }
+
+                        if((max_add_on - (count - 2)) > 0)
+                            $('#guest-count').text('('+(max_add_on - (count - 2))+')');
+                        else
+                            $('#guest-count').text('');
 
                         html = '<div class="input-group">' +
                             '<input type="text" class="form-control" name="' + $t.data("input") + '_' + count + '" value="' + val + '" />' +
