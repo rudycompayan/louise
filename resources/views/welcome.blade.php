@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Page Title -->
-    <title>Lilac</title>
+    <title>April & Louise Wedding</title>
 
     <meta name="keywords" content="onepage, single page, band template, retina ready, responsive, modern html5 template, bootstrap, css3, music, band" />
     <meta name="description" content="Lilac - Responsive One-Page Wedding HTML5 Template" />
@@ -18,10 +18,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
     <!-- Fav and touch icons -->
-    <link rel="shortcut icon" type="image/jpg" href="lilac/images/fav_touch_icons/favicon.jpg" />
-    <link rel="apple-touch-icon" href="lilac/images/fav_touch_icons/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="lilac/images/fav_touch_icons/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="lilac/images/fav_touch_icons/apple-touch-icon-114x114.png" />
+    <link rel="shortcut icon" type="image/jpg" href="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/fav_touch_icons/favicon.jpg') }}" />
+    <link rel="apple-touch-icon" href="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/fav_touch_icons/apple-touch-icon.png') }}" />
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/fav_touch_icons/apple-touch-icon-72x72.png') }}" />
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/fav_touch_icons/apple-touch-icon-114x114.png') }}" />
 
     <!-- IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -32,13 +32,13 @@
     <link href='http://fonts.googleapis.com/css?family=Dancing+Script:700%7COpen+Sans%7COpen+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 
     <!-- Bootstrap CSS -->
-    <link href="lilac/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="{{ \Illuminate\Support\Facades\URL::asset('lilac/css/bootstrap.min.css') }}" rel="stylesheet" />
 
     <!-- Template CSS -->
-    <link href="lilac/css/style.css" rel="stylesheet" />
+    <link href="{{ \Illuminate\Support\Facades\URL::asset('lilac/css/style.css') }}" rel="stylesheet" />
 
     <!-- Modernizr -->
-    <script src="lilac/js/modernizr-2.6.2.min.js"></script>
+    <script src="{{ \Illuminate\Support\Facades\URL::asset('lilac/js/modernizr-2.6.2.min.js') }}"></script>
 
 </head>
 <body>
@@ -956,22 +956,22 @@
 
 
 <!-- Libs -->
-<script src="lilac/js/jquery-1.11.3.min.js"></script>
+<script src="{{ \Illuminate\Support\Facades\URL::asset('lilac/js/jquery-1.11.3.min.js') }}"></script>
 <!-- Google Maps: change YOUR_API_KEY with your Google API Key. -->
 <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY" type="text/javascript"></script>
-<script src="lilac/js/common.js" type="text/javascript"></script>
-<script src="lilac/twitter/jquery.tweet.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="{{ \Illuminate\Support\Facades\URL::asset('lilac/js/common.js') }}" type="text/javascript"></script>
+<script src="{{ \Illuminate\Support\Facades\URL::asset('lilac/twitter/jquery.tweet.min.js') }}" type="text/javascript" charset="utf-8"></script>
 
 <!-- Map  Louiseers list -->
-<script src="lilac/js/map.markers.js"></script>
+<script src="{{ \Illuminate\Support\Facades\URL::asset('lilac/js/map.markers.js') }}"></script>
 
 <!-- Template Scripts -->
-<script src="lilac/js/variables.js"></script>
-{{--<script src="lilac/js/scripts.js"></script>--}}
+<script src="{{ \Illuminate\Support\Facades\URL::asset('lilac/js/variables.js') }}"></script>
+{{--<script src="{{ \Illuminate\Support\Facades\URL::asset('lilac/js/scripts.js') }}"></script>--}}
 
 <!-- Hero Background Image Slideshow Scripts -->
-<script src="lilac/js/slideshow/supersized.js" type="text/javascript"></script>
-<script src="lilac/js/slideshow/slideshow.js" type="text/javascript"></script>
+<script src="{{ \Illuminate\Support\Facades\URL::asset('lilac/js/slideshow/supersized.js') }}" type="text/javascript"></script>
+<script src="{{ \Illuminate\Support\Facades\URL::asset('lilac/js/slideshow/slideshow.js') }}" type="text/javascript"></script>
 
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
