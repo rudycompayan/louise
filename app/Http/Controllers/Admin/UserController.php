@@ -38,6 +38,26 @@ class UserController extends Controller
         ]);
     }
 
+    public function confirm_rsvp(Request $request)
+    {
+        $users = UserProfile::where('user_id', '<>', auth()->user()->id)->where('status',1)->get();
+
+        return view('admin.user.confirm', [
+            'pageName' => $this->pageName,
+            'users'    => $users
+        ]);
+    }
+
+    public function decline_rsvp(Request $request)
+    {
+        $users = UserProfile::where('user_id', '<>', auth()->user()->id)->where('status',2)->get();
+
+        return view('admin.user.decline', [
+            'pageName' => $this->pageName,
+            'users'    => $users
+        ]);
+    }
+
     public function search(Request $request)
     {
         dd($request);

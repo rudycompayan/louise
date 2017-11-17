@@ -43,3 +43,13 @@ Route::post('user/delete', [
     'as'   => 'admin.user.delete',
     'uses' => 'Admin\UserController@delete'
 ]);
+
+Route::get('confirm', [
+    'as'   => 'admin.user.confirm',
+    'uses' => 'Admin\UserController@confirm_rsvp'
+]);
+
+Route::get('decline', [
+    'as'   => 'admin.user.decline',
+    'uses' => 'Admin\UserController@decline_rsvp'
+]);

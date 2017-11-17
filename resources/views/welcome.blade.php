@@ -96,12 +96,12 @@
 
                                 <li><a href="#gallery">Gallery</a></li>
 
-                                <li class="dropdown">
+                               {{-- <li class="dropdown">
                                     <a href="#blog" data-toggle="dropdown" data-hover="dropdown">Blog<b class="caret"></b></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="blog-single.html">Blog Single Post</a></li>
                                     </ul>
-                                </li>
+                                </li>--}}
 
                                 <li @if ($guest->status != 0 || !$guest->id) style='display:none' @endif><a href="#rsvp">RSVP/Contact</a></li>
                             </ul>
