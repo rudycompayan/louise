@@ -50,21 +50,21 @@
 
 </div>
 
-<script type="text/javascript" src="/assets/js/vendor.js"></script>
-<script type="text/javascript" src="/assets/js/app.js"></script>
-<script type="text/javascript" src="/assets/js/fileinput.min.js"></script>
-<script type="text/javascript" src="/assets/js/sheepit.min.js"></script>
-<script type="text/javascript" src="/assets/js/jquery.mask.js"></script>
-<script type="text/javascript" src="/assets/js/moment.min.js"></script>
-<script type="text/javascript" src="/assets/js/bootstrap-datetimepicker.js"></script>
-<script type="text/javascript" src="/assets/js/validator/jquery.form-validator.min.js"></script>
-<script type="text/javascript" src="/assets/js/validator/date.js"></script>
-<script type="text/javascript" src="/assets/js/validator/file.js"></script>
-<script type="text/javascript" src="/assets/js/validator/sanitize.js"></script>
-<script type="text/javascript" src="/assets/js/validator/location.js"></script>
-<script type="text/javascript" src="/assets/js/validator/security.js"></script>
-<script type="text/javascript" src="/assets/js/validator/sepa.js"></script>
-<script type="text/javascript" src="/assets/js/loadingoverlay.min.js"></script>
+<script type="text/javascript" src="{{ \Illuminate\Support\Facades\URL::asset('/assets/js/vendor.js') }}"></script>
+<script type="text/javascript" src="{{ \Illuminate\Support\Facades\URL::asset('/assets/js/app.js') }}"></script>
+<script type="text/javascript" src="{{ \Illuminate\Support\Facades\URL::asset('/assets/js/fileinput.min.js') }}"></script>
+<script type="text/javascript" src="{{ \Illuminate\Support\Facades\URL::asset('/assets/js/sheepit.min.js') }}"></script>
+<script type="text/javascript" src="{{ \Illuminate\Support\Facades\URL::asset('/assets/js/jquery.mask.js') }}"></script>
+<script type="text/javascript" src="{{ \Illuminate\Support\Facades\URL::asset('/assets/js/moment.min.js') }}"></script>
+<script type="text/javascript" src="{{ \Illuminate\Support\Facades\URL::asset('/assets/js/bootstrap-datetimepicker.js') }}"></script>
+<script type="text/javascript" src="{{ \Illuminate\Support\Facades\URL::asset('/assets/js/validator/jquery.form-validator.min.js') }}"></script>
+<script type="text/javascript" src="{{ \Illuminate\Support\Facades\URL::asset('/assets/js/validator/date.js') }}"></script>
+<script type="text/javascript" src="{{ \Illuminate\Support\Facades\URL::asset('/assets/js/validator/file.js') }}"></script>
+<script type="text/javascript" src="{{ \Illuminate\Support\Facades\URL::asset('/assets/js/validator/sanitize.js') }}"></script>
+<script type="text/javascript" src="{{ \Illuminate\Support\Facades\URL::asset('/assets/js/validator/location.js') }}"></script>
+<script type="text/javascript" src="{{ \Illuminate\Support\Facades\URL::asset('/assets/js/validator/security.js') }}"></script>
+<script type="text/javascript" src="{{ \Illuminate\Support\Facades\URL::asset('/assets/js/validator/sepa.js') }}"></script>
+<script type="text/javascript" src="{{ \Illuminate\Support\Facades\URL::asset('/assets/js/loadingoverlay.min.js') }}"></script>
 <script type="text/javascript"
         src="http://maps.google.com/maps/api/js?key=AIzaSyBy9ai0lR6qcKPtUyDSgGixQilvG11HsXs"></script>
 
