@@ -6,7 +6,7 @@
             <div class="navbar-collapse collapse in">
                 @include('layouts.common.navmobile')
                 <ul class="nav navbar-nav navbar-left">
-                    <li class="navbar-title"><strong>Edit User</strong></li>
+                    <li class="navbar-title"><strong>Edit Guest</strong></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     @include('layouts.common.navbar')

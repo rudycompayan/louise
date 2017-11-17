@@ -12,12 +12,12 @@
             <div class="icon">
                 <i class="fa fa-users" aria-hidden="true"></i>
             </div>
-            <div class="title">Users</div>
+            <div class="title">Guest</div>
         </a>
         <div class="dropdown-menu">
             <ul>
                 <li class="section"><i class="fa fa-user" aria-hidden="true"></i> <strong>Actions</strong></li>
-                <li><a href="{{ route('admin.user.add') }}">Add New User</a></li>
+                <li><a href="{{ route('admin.user.add') }}">Add New Guest</a></li>
                 <li><a href="{{ route('admin.user.index') }}">View All</a></li>
             </ul>
         </div>
