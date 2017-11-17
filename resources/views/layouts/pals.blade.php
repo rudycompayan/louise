@@ -8,18 +8,18 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="/assets/css/vendor.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/flat-admin.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="{{ \Illuminate\Support\Facades\URL::asset('/assets/css/vendor.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ \Illuminate\Support\Facades\URL::asset('/assets/css/flat-admin.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ \Illuminate\Support\Facades\URL::asset('/assets/css/custom.css') }}">
 
     <!-- Theme -->
-    <link rel="stylesheet" type="text/css" href="/assets/css/theme/blue-sky.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/theme/blue.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/theme/red.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/theme/yellow.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/fileinput.css" media="all"/>
-    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-datetimepicker.min.css"/>
-    <link rel="stylesheet" type="text/css" href="/assets/css/jquery.form-validator.min.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ \Illuminate\Support\Facades\URL::asset('/assets/css/theme/blue-sky.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ \Illuminate\Support\Facades\URL::asset('/assets/css/theme/blue.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ \Illuminate\Support\Facades\URL::asset('/assets/css/theme/red.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ \Illuminate\Support\Facades\URL::asset('/assets/css/theme/yellow.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ \Illuminate\Support\Facades\URL::asset('/assets/css/fileinput.css') }}" media="all"/>
+    <link rel="stylesheet" type="text/css" href="{{ \Illuminate\Support\Facades\URL::asset('/assets/css/bootstrap-datetimepicker.min.css') }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ \Illuminate\Support\Facades\URL::asset('/assets/css/jquery.form-validator.min.css') }}"/>
     @yield('styles')
 
 </head>
