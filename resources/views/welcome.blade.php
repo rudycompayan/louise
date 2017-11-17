@@ -29,7 +29,9 @@
     <![endif]-->
 
     <!-- Google Web Font -->
-    <link href='http://fonts.googleapis.com/css?family=Dancing+Script:700%7COpen+Sans%7COpen+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Open+Sans+Condensed:300" rel="stylesheet">
+
 
     <!-- Bootstrap CSS -->
     <link href="{{ \Illuminate\Support\Facades\URL::asset('lilac/css/bootstrap.min.css') }}" rel="stylesheet" />
