@@ -637,7 +637,7 @@
     <!-- END GALLERY SECTION -->
 
     <!-- BEGIN BLOG SECTION -->
-    <section id="blog" class="divider-bottom-2 divider-pattern divider-bg-color">
+    <section id="blog" class="divider-bottom-2 divider-pattern divider-bg-color" style="margin-top: 147px !important;">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
