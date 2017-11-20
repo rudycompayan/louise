@@ -64,11 +64,11 @@
                             <ul class="nav navbar-nav">
                                 <li class="dropdown">
                                     <a href="#home" data-toggle="dropdown" data-hover="dropdown">Home<b class="caret"></b></a>
-                                    <ul class="dropdown-menu">
+                                   {{-- <ul class="dropdown-menu">
                                         <li><a href="index.html">Home Slideshow</a></li>
                                         <li><a href="index-countdown.html">Home Countdown<br><small>(BG Image Grid)</small></a></li>
                                         <li><a href="index-video.html">Home Video</a></li>
-                                    </ul>
+                                    </ul>--}}
                                 </li>
 
                                 <li class="dropdown">
@@ -84,13 +84,13 @@
                                         <li><a href="#location">The Wedding Location</a></li>
                                         <li><a href="#bridesmaidsgroomsmen">Bridesmaids & Groomsmen</a></li>
                                         <li><a href="#weddinggifts">Wedding Gifts</a></li>
-                                        <li class="dropdown-submenu">
+                                        {{--<li class="dropdown-submenu">
                                             <a href="#">Another Menu</a>
                                             <ul class="dropdown-menu">
                                                 <li><a href="#">Another Menu</a></li>
                                                 <li><a href="#">Another Menu</a></li>
                                             </ul>
-                                        </li>
+                                        </li>--}}
                                     </ul>
                                 </li>
 
@@ -641,7 +641,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h1 class="section-title"></h1>
+                    <h1 class="section-title" style="background: none !important"></h1>
                 </div>
             </div>
 
