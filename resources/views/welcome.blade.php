@@ -641,12 +641,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h1 class="section-title">Wedding Blog</h1>
+                    <h1 class="section-title"></h1>
                 </div>
             </div>
 
             <div class="row">
-                &lt;!&ndash; BEGIN BLOG MAIN CONTENT &ndash;&gt;
+                {{--&lt;!&ndash; BEGIN BLOG MAIN CONTENT &ndash;&gt;
                 <div class="col-sm-8">
                     &lt;!&ndash; BEGIN BLOG LISTING &ndash;&gt;
                     <div class="blog-listing clearfix">
@@ -746,9 +746,9 @@
                             </div>&lt;!&ndash; END BLOG ITEM &ndash;&gt;
                         </div>
                     </div>
-                    &lt;!&ndash; END BLOG LISTING &ndash;&gt;
+                    &lt;!&ndash; END BLOG LISTING &ndash;&gt;--}}
 
-                    &lt;!&ndash; BEGIN PAGINATION &ndash;&gt;
+                    {{--&lt;!&ndash; BEGIN PAGINATION &ndash;&gt;
                     <div class="pagination">
                         <ul id="previous">
                             <li><a href="#"><i class="fa fa-chevron-left"></i></a></li>
@@ -763,8 +763,8 @@
                             <li><a href="#"><i class="fa fa-chevron-right"></i></a></li>
                         </ul>
                     </div>
-                    &lt;!&ndash; END PAGINATION &ndash;&gt;
-                </div>
+                    &lt;!&ndash; END PAGINATION &ndash;&gt;--}}
+                {{--</div>
                 &lt;!&ndash; END BLOG MAIN CONTENT &ndash;&gt;
 
 
@@ -863,7 +863,7 @@
                     </ul>
                     &lt;!&ndash; END TAGS &ndash;&gt;
                 </div>
-                &lt;!&ndash; END SIDEBAR &ndash;&gt;
+                &lt;!&ndash; END SIDEBAR &ndash;&gt;--}}
             </div>
         </div>
     </section>
