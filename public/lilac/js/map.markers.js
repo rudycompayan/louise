@@ -1,11 +1,18 @@
 //List of map markers
 var map_markers = [
+    {
+        "title": "Church",
+        "latitude":10.2817519,
+        "longitude":123.8755772,
+        "icon":"fa-bell", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
+        "infoWindow":"Chapel of San Pedro Calungsod <br> South Road Properties, Cebu City, Cebu PH"
+    },
 	{
 		"title": "Reception",
-		"latitude":33.775664,
-		"longitude":-118.065090,
+		"latitude":10.342283,
+		"longitude":123.9157003,
 		"icon":"fa-glass", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
-		"infoWindow":"Old Ranch Country Club <br> 29033 West Lake Drive, Agoura Hills, CA"
+		"infoWindow":"Oakridge Pavilion <br> 880 A. S. Fortuna St, Mandaue City, Cebu PH"
 	},
 	{
 		"title": "Accommodation 1",

@@ -352,8 +352,8 @@
                                 </div>
 
                                 <div class="info-right">
-                                    <h4>Birchwood Church</h4>
-                                    <p>4181 Birchwood Ave Seal Beach, CA<br>33.776825, -118.059113</p>
+                                    <h4>Chapel of San Pedro Calungsod</h4>
+                                    <p>South Road Properties, Cebu City, Cebu PH<br>10.2817519, 123.8755772</p>
                                 </div>
                             </div>
                         </div>
@@ -365,8 +365,8 @@
                                 </div>
 
                                 <div class="info-right">
-                                    <h4>Old Ranch Country Club</h4>
-                                    <p>29033 West Lake Drive, Agoura Hills, CA<br>33.776025, -118.065314</p>
+                                    <h4>Oakridge Pavilion</h4>
+                                    <p>880 A. S. Fortuna St, Mandaue City, Cebu PH<br>10.342283, 123.9157003</p>
                                 </div>
                             </div>
                         </div>
@@ -960,7 +960,7 @@
 <!-- Libs -->
 <script src="{{ \Illuminate\Support\Facades\URL::asset('lilac/js/jquery-1.11.3.min.js') }}"></script>
 <!-- Google Maps: change YOUR_API_KEY with your Google API Key. -->
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY" type="text/javascript"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB66kIZHfGP0FCDrEd3rIXegdiS0DXOO2w" type="text/javascript"></script>
 <script src="{{ \Illuminate\Support\Facades\URL::asset('lilac/js/common.js') }}" type="text/javascript"></script>
 <script src="{{ \Illuminate\Support\Facades\URL::asset('lilac/twitter/jquery.tweet.min.js') }}" type="text/javascript" charset="utf-8"></script>
 
