@@ -43,7 +43,7 @@
     <script src="{{ \Illuminate\Support\Facades\URL::asset('lilac/js/modernizr-2.6.2.min.js') }}"></script>
     <style type="text/css">
         #home {
-            background-image: url("{{ \Illuminate\Support\Facades\URL::asset('lilac/images/cover.jpg') }}") !important;
+            background-image: url("{{ \Illuminate\Support\Facades\URL::asset('lilac/images/CoverPhoto.jpg') }}") !important;
             background-position: center;
         }
     </style>
