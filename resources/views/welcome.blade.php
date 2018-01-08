@@ -63,7 +63,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <a href="#home" class="nav-logo"><img src="lilac/images/logo.png" alt="" /></a>
+                        {{--<a href="#home" class="nav-logo"><img src="lilac/images/logo.png" alt="" /></a>--}}
 
                         <!-- BEGIN MAIN MENU -->
                         <nav class="navbar">
@@ -946,7 +946,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <p>&copy; 2015 Lilac - Responsive One-Page Wedding HTML5 Template. All rights reserved. Developed by <a href="http://www.wiselythemes.com" target="_blank">WiselyThemes</a>.</p>
+                    <p>&copy; 2018 Louise & Eping. All rights reserved.</p>
 
                     <!-- BEGIN SOCIAL ICONS -->
                     <ul class="sn-icons">
