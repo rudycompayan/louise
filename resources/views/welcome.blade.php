@@ -43,9 +43,9 @@
     <script src="{{ \Illuminate\Support\Facades\URL::asset('lilac/js/modernizr-2.6.2.min.js') }}"></script>
     <style type="text/css">
         #home {
-            background-image: url("{{ \Illuminate\Support\Facades\URL::asset('lilac/images/CoverPhoto2.jpg') }}") !important;
+            background-image: url("{{ \Illuminate\Support\Facades\URL::asset('lilac/images/CoverPhoto3.jpg') }}") !important;
             background-position: center;
-            background-position-x: 85%;
+            background-position-x: 45%;
             background-position-y: -5%;
         }
     </style>
