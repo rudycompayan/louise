@@ -44,7 +44,6 @@
     <style type="text/css">
         #home {
             background-image: url("{{ \Illuminate\Support\Facades\URL::asset('lilac/images/CoverPhoto.jpg') }}") !important;
-           
         }
     </style>
 
