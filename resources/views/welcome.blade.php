@@ -304,7 +304,7 @@
                     <div class="invite_info">
                         Happily invite you to celebrate their wedding
                         <div class="date">
-                            20 . 09 . 2015
+                            22 . 03 . 2018
                         </div>
                         <div class="hour">at four in the afternoon</div>
                     </div>
