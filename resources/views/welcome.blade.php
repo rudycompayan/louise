@@ -162,7 +162,7 @@
                             </ul>
                         </div>
                     </div>
-                    <h3>April Navales<small>19.12.1986</small></h3>
+                    <h3>April Navales<small>4.8.1990</small></h3>
                     <p>April is amazing. When I first met her I knew she was amazing and every passing day reminds me of just how amazing she is!<br><br>I really love her incredibly unique blend of talents, interests, and personality. She's a talented artist, always excited about trying new things, and a genuinely loving person.<br><br>She's everything I've always dreamed of and I'm so excited to spend the rest of my life with her!</p>
                 </div>
                 <div class="story-elem col-sm-4" data-animation-direction="from-right" data-animation-delay="100">
@@ -177,7 +177,7 @@
                             </ul>
                         </div>
                     </div>
-                    <h3> Louise Namoc<small>25.11.1983</small></h3>
+                    <h3> Louise Namoc<small>2.11.1986</small></h3>
                     <p>Someone once told me that "when you meet the right person, you'll know." Well, I just knew. Right away, we connected  in a way that left me feeling whole and complete.<br><br> Louise has a truly amazing heart and I love how genuine and balanced he is about everything.<br><br>I am so incredibly blessed and excited to spend everyday for the rest of my life with my best friend!</p>
                 </div>
             </div>
