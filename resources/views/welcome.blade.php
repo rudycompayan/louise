@@ -41,6 +41,12 @@
 
     <!-- Modernizr -->
     <script src="{{ \Illuminate\Support\Facades\URL::asset('lilac/js/modernizr-2.6.2.min.js') }}"></script>
+    <style type="text/css">
+        #home {
+            background-image: url("{{ \Illuminate\Support\Facades\URL::asset('lilac/images/cover.jpg') }}") !important;
+            background-position: center;
+        }
+    </style>
 
 </head>
 <body>
@@ -1001,7 +1007,7 @@
 
         $(document).ready(function () {
 
-            $('.rsvp-details').hide();
+            $('.rsvp-details').hide()
 
             $('.btn-default').click(function () {
                 if($(this).data('value') == "no")
