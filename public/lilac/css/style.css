@@ -1550,9 +1550,9 @@ fieldset[disabled] .btn.ribbon.active {
   left: 0;
   top: 0;
   background-color: #000080;
-  -webkit-opacity: 0.55;
-  -moz-opacity: 0.55;
-  opacity: 0.55;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
 }
 .hero-title {
   color: #fff;
