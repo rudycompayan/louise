@@ -145,9 +145,6 @@
                                             <input type="text" id="phone" name="phone"
                                                    value="{{ $user->phone }}"
                                                    class="form-control" data-mask="(000) 000-00000"
-                                                   data-validation="length"
-                                                   data-validation-length="1-20"
-                                                   data-validation-error-msg="Phone number is required."
                                             >
                                         </div>
                                     </div>
