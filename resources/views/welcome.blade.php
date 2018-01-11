@@ -46,7 +46,7 @@
             background-image: url("{{ \Illuminate\Support\Facades\URL::asset('lilac/images/CoverPhoto4.jpg') }}") !important;
             background-position: center;
             background-position-x: 45%;
-            background-position-y: -5%;
+            background-position-y: 55%;
         }
     </style>
 
