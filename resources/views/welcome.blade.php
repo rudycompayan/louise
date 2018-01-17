@@ -478,6 +478,16 @@
                                     <h3>Robert Vencint</h3>
                                     <span class="title">Best man</span>
                                 </a>
+                                <img src="http://placehold.it/256x256" alt="" />
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="image">
+                                <a href="#" class="info">
+                                    <h3>Robert Vencint</h3>
+                                    <span class="title">Groomsmen</span>
+                                </a>
                                 <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/grooms-men1.jpg') }}" alt="" />
                             </div>
                         </div>
@@ -486,19 +496,9 @@
                             <div class="image">
                                 <a href="#" class="info">
                                     <h3>James Arnold</h3>
-                                    <span class="title">Groomsman</span>
+                                    <span class="title">Groomsmen</span>
                                 </a>
-                                <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/grooms-men2.jpg') }}" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="image">
-                                <a href="#" class="info">
-                                    <h3>William Kersey</h3>
-                                    <span class="title">Maid of Honnor</span>
-                                </a>
-                                <img src="http://placehold.it/256x256" alt="" />
+                                <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/grooms-men1.jpg') }}" alt="" />
                             </div>
                         </div>
 
@@ -506,7 +506,7 @@
                             <div class="image">
                                 <a href="#" class="info">
                                     <h3>Taylor Pierce</h3>
-                                    <span class="title">Maid of Honnor</span>
+                                    <span class="title">Groomsmen</span>
                                 </a>
                                 <img src="http://placehold.it/256x256" alt="" />
                             </div>
@@ -516,7 +516,7 @@
                             <div class="image">
                                 <a href="#" class="info">
                                     <h3>David Madison</h3>
-                                    <span class="title">Maid of Honnor</span>
+                                    <span class="title">Groomsmen</span>
                                 </a>
                                 <img src="http://placehold.it/256x256" alt="" />
                             </div>
