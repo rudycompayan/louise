@@ -485,10 +485,10 @@
                         <div class="item">
                             <div class="image">
                                 <a href="#" class="info">
-                                    <h3>Eric Jefferson</h3>
+                                    <h3>James Arnold</h3>
                                     <span class="title">Groomsman</span>
                                 </a>
-                                <img src="http://placehold.it/256x256" alt="" />
+                                <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/grooms-men2.jpg') }}" alt="" />
                             </div>
                         </div>
 
