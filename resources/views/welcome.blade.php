@@ -411,50 +411,60 @@
                         <div class="item" data-animation-direction="from-bottom" data-animation-delay="250">
                             <div class="image">
                                 <a href="#" class="info">
-                                    <h3>Emma Williams</h3>
+                                    <h3>Elaine Mae</h3>
                                     <span class="title">Maid of honour</span>
                                 </a>
-                                <img src="http://placehold.it/256x256" alt="" />
+                                <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/brides-maid1.jpg') }}" alt="" />
                             </div>
                         </div>
 
                         <div class="item" data-animation-direction="from-bottom" data-animation-delay="450">
                             <div class="image">
                                 <a href="#" class="info">
-                                    <h3>Rachel Brook</h3>
+                                    <h3>Floralyn</h3>
                                     <span class="title">Bridesmaid</span>
                                 </a>
-                                <img src="http://placehold.it/256x256" alt="" />
+                                <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/brides-maid2.jpg') }}" alt="" />
                             </div>
                         </div>
 
                         <div class="item" data-animation-direction="from-bottom" data-animation-delay="650">
                             <div class="image">
                                 <a href="#" class="info">
-                                    <h3>kate Davison</h3>
+                                    <h3>Nina Marie</h3>
                                     <span class="title">Bridesmaid</span>
                                 </a>
-                                <img src="http://placehold.it/256x256" alt="" />
+                                <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/brides-maid3.jpg') }}" alt="" />
                             </div>
                         </div>
 
                         <div class="item" data-animation-direction="from-bottom" data-animation-delay="850">
                             <div class="image">
                                 <a href="#" class="info">
-                                    <h3>Jessica Navales</h3>
+                                    <h3>Rubie</h3>
                                     <span class="title">Bridesmaid</span>
                                 </a>
-                                <img src="http://placehold.it/256x256" alt="" />
+                                <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/brides-maid4.jpg') }}" alt="" />
                             </div>
                         </div>
 
                         <div class="item">
                             <div class="image">
                                 <a href="#" class="info">
-                                    <h3>Vanessa Gibson</h3>
+                                    <h3>Sarah Mae</h3>
                                     <span class="title">Bridesmaid</span>
                                 </a>
-                                <img src="http://placehold.it/256x256" alt="" />
+                                <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/brides-maid5.jpg') }}" alt="" />
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="image">
+                                <a href="#" class="info">
+                                    <h3>Sidney</h3>
+                                    <span class="title">Bridesmaid</span>
+                                </a>
+                                <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/brides-maid6.jpg') }}" alt="" />
                             </div>
                         </div>
                     </div>
@@ -465,10 +475,10 @@
                         <div class="item">
                             <div class="image">
                                 <a href="#" class="info">
-                                    <h3>Gary Hope</h3>
+                                    <h3>Robert Vencint</h3>
                                     <span class="title">Best man</span>
                                 </a>
-                                <img src="http://placehold.it/256x256" alt="" />
+                                <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/grooms-men1.jpg') }}" alt="" />
                             </div>
                         </div>
 
