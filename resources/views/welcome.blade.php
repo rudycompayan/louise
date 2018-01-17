@@ -411,7 +411,7 @@
                         <div class="item" data-animation-direction="from-bottom" data-animation-delay="250">
                             <div class="image">
                                 <a href="#" class="info">
-                                    <h3>Elaine Mae</h3>
+                                    <h3>Rubie</h3>
                                     <span class="title">Maid of honour</span>
                                 </a>
                                 <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/brides-maid4.jpg') }}" alt="" />
@@ -441,7 +441,7 @@
                         <div class="item" data-animation-direction="from-bottom" data-animation-delay="850">
                             <div class="image">
                                 <a href="#" class="info">
-                                    <h3>Rubie</h3>
+                                    <h3>Elaine Mae</h3>
                                     <span class="title">Bridesmaid</span>
                                 </a>
                                 <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/brides-maid1.jpg') }}" alt="" />
