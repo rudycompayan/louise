@@ -156,9 +156,9 @@
                         <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/bride.jpg') }}" alt="" />
                         <div class="hover-info">
                             <ul class="sn-icons">
-                                <li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/iamiping" title="Facebook"  target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                {{--<li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" title="Instagram"><i class="fa fa-instagram"></i></a></li>--}}
                             </ul>
                         </div>
                     </div>
@@ -171,9 +171,9 @@
                         <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/groom.jpg') }}" alt="" />
                         <div class="hover-info">
                             <ul class="sn-icons">
-                                <li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/zuilse7en" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                               {{-- <li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" title="Instagram"><i class="fa fa-instagram"></i></a></li>--}}
                             </ul>
                         </div>
                     </div>
