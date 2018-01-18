@@ -153,7 +153,7 @@
                 <div class="story-elem col-sm-4 col-sm-offset-2" data-animation-direction="from-left" data-animation-delay="100">
                     <div class="balloon-left" data-animation-direction="from-bottom" data-animation-delay="600">I do!</div>
                     <div class="image">
-                        <img src="http://placehold.it/750x750" alt="" />
+                        <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/bride.jpg') }}" alt="" />
                         <div class="hover-info">
                             <ul class="sn-icons">
                                 <li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
@@ -168,7 +168,7 @@
                 <div class="story-elem col-sm-4" data-animation-direction="from-right" data-animation-delay="100">
                     <div class="balloon-right" data-animation-direction="from-bottom" data-animation-delay="900">Me too!</div>
                     <div class="image">
-                        <img src="http://placehold.it/750x750" alt="" />
+                        <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/groom.jpg') }}" alt="" />
                         <div class="hover-info">
                             <ul class="sn-icons">
                                 <li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
@@ -411,17 +411,17 @@
                         <div class="item" data-animation-direction="from-bottom" data-animation-delay="250">
                             <div class="image">
                                 <a href="#" class="info">
-                                    <h3>Rubie</h3>
+                                    <h3>Rubie Mae Navales</h3>
                                     <span class="title">Maid of honour</span>
                                 </a>
-                                <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/brides-maid4.jpg') }}" alt="" />
+                                <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/brides-maid1.jpg') }}" alt="" />
                             </div>
                         </div>
 
                         <div class="item" data-animation-direction="from-bottom" data-animation-delay="450">
                             <div class="image">
                                 <a href="#" class="info">
-                                    <h3>Floralyn</h3>
+                                    <h3>Nina Marie Navales</h3>
                                     <span class="title">Bridesmaid</span>
                                 </a>
                                 <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/brides-maid2.jpg') }}" alt="" />
@@ -431,7 +431,7 @@
                         <div class="item" data-animation-direction="from-bottom" data-animation-delay="650">
                             <div class="image">
                                 <a href="#" class="info">
-                                    <h3>Nina Marie</h3>
+                                    <h3>Sarah Mae Navales</h3>
                                     <span class="title">Bridesmaid</span>
                                 </a>
                                 <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/brides-maid3.jpg') }}" alt="" />
@@ -441,17 +441,17 @@
                         <div class="item" data-animation-direction="from-bottom" data-animation-delay="850">
                             <div class="image">
                                 <a href="#" class="info">
-                                    <h3>Elaine Mae</h3>
+                                    <h3>Floralyn Navales</h3>
                                     <span class="title">Bridesmaid</span>
                                 </a>
-                                <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/brides-maid1.jpg') }}" alt="" />
+                                <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/brides-maid4.jpg') }}" alt="" />
                             </div>
                         </div>
 
                         <div class="item">
                             <div class="image">
                                 <a href="#" class="info">
-                                    <h3>Sarah Mae</h3>
+                                    <h3>Sidney Sedale King</h3>
                                     <span class="title">Bridesmaid</span>
                                 </a>
                                 <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/brides-maid5.jpg') }}" alt="" />
@@ -461,7 +461,7 @@
                         <div class="item">
                             <div class="image">
                                 <a href="#" class="info">
-                                    <h3>Sidney</h3>
+                                    <h3>Elaine Mae Chua</h3>
                                     <span class="title">Bridesmaid</span>
                                 </a>
                                 <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/brides-maid6.jpg') }}" alt="" />
@@ -475,18 +475,8 @@
                         <div class="item">
                             <div class="image">
                                 <a href="#" class="info">
-                                    <h3>Louise Namoc</h3>
+                                    <h3>Lawrence George Namoc</h3>
                                     <span class="title">Best man</span>
-                                </a>
-                                <img src="http://placehold.it/256x256" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="image">
-                                <a href="#" class="info">
-                                    <h3>Robert Vencint</h3>
-                                    <span class="title">Groomsmen</span>
                                 </a>
                                 <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/grooms-men1.jpg') }}" alt="" />
                             </div>
@@ -495,7 +485,7 @@
                         <div class="item">
                             <div class="image">
                                 <a href="#" class="info">
-                                    <h3>James Arnold</h3>
+                                    <h3>Gabriel Nathaniel Dizon</h3>
                                     <span class="title">Groomsmen</span>
                                 </a>
                                 <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/grooms-men2.jpg') }}" alt="" />
@@ -505,20 +495,40 @@
                         <div class="item">
                             <div class="image">
                                 <a href="#" class="info">
-                                    <h3>Taylor Pierce</h3>
+                                    <h3>Robert Vencint Navales</h3>
                                     <span class="title">Groomsmen</span>
                                 </a>
-                                <img src="http://placehold.it/256x256" alt="" />
+                                <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/grooms-men3.jpg') }}" alt="" />
                             </div>
                         </div>
 
                         <div class="item">
                             <div class="image">
                                 <a href="#" class="info">
-                                    <h3>David Madison</h3>
+                                    <h3>Moon Ray Lo</h3>
                                     <span class="title">Groomsmen</span>
                                 </a>
-                                <img src="http://placehold.it/256x256" alt="" />
+                                <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/grooms-men4.jpg') }}" alt="" />
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="image">
+                                <a href="#" class="info">
+                                    <h3>James Arnold Nogra</h3>
+                                    <span class="title">Groomsmen</span>
+                                </a>
+                                <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/grooms-men5.jpg') }}" alt="" />
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="image">
+                                <a href="#" class="info">
+                                    <h3>John Ervyn Soriano</h3>
+                                    <span class="title">Groomsmen</span>
+                                </a>
+                                <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/grooms-men6.jpg') }}" alt="" />
                             </div>
                         </div>
                     </div>
