@@ -314,7 +314,7 @@
                         <div class="date">
                             22 . 03 . 2018
                         </div>
-                        <div class="hour">at four in the afternoon</div>
+                        <div class="hour">at one thirty in the afternoon</div>
                     </div>
                 </div>
             </div>
@@ -356,7 +356,7 @@
                         <div class="event_left" data-animation-direction="from-right" data-animation-delay="100">
                             <div class="event_panel">
                                 <div class="info-left">
-                                    <h4>Ceremony <small>4:00 PM</small></h4>
+                                    <h4>Ceremony <small>1:30 PM</small></h4>
                                 </div>
 
                                 <div class="info-right">
