@@ -508,7 +508,7 @@
                                     <h3>Moon Ray Lo</h3>
                                     <span class="title">Groomsmen</span>
                                 </a>
-                                <img src="http://placehold.it/256x256{{--{{ \Illuminate\Support\Facades\URL::asset('lilac/images/grooms-men4.jpg') }}--}}" alt="" />
+                                <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/grooms-men4.jpg') }}" alt="" />
                             </div>
                         </div>
 
@@ -1029,7 +1029,11 @@
 
         $(document).ready(function () {
 
-            $('.rsvp-details').hide()
+            $('.info').click(function(e) {
+                e.preventDefault();
+            });
+
+            $('.rsvp-details').hide();
 
             $('.btn-default').click(function () {
                 if($(this).data('value') == "no")
