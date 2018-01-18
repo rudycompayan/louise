@@ -508,7 +508,7 @@
                                     <h3>Moon Ray Lo</h3>
                                     <span class="title">Groomsmen</span>
                                 </a>
-                                <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/grooms-men4.jpg') }}" alt="" />
+                                <img src="http://placehold.it/256x256{{--{{ \Illuminate\Support\Facades\URL::asset('lilac/images/grooms-men4.jpg') }}--}}" alt="" />
                             </div>
                         </div>
 
