@@ -551,7 +551,7 @@
                         <div class="item">
                             <div class="image">
                                 <a href="#" class="info">
-                                    <h3>John Ervyn Soriano</h3>
+                                    <h3>Rowell Roncesvalles</h3>
                                     <span class="title">Groomsmen</span>
                                 </a>
                                 <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/grooms-men6.jpg') }}" alt="" />
@@ -992,7 +992,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <p>&copy; 2018 Louise & Eping. All rights reserved.</p>
+                    <p>&copy; 2018 Louise & Iping. All rights reserved.</p>
 
                     <!-- BEGIN SOCIAL ICONS -->
                     <ul class="sn-icons">
