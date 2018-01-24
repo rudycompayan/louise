@@ -293,14 +293,14 @@
 
                     <div class="year" data-animation-direction="from-top" data-animation-delay="250"><span class="ribbon">2015</span></div>
 
-                    <div class="event_left" data-animation-direction="from-right" data-animation-delay="450">
+                    {{--<div class="event_left" data-animation-direction="from-right" data-animation-delay="450">
                         <div class="event_panel">
                             <h3>14 April: They moved together</h3>
                             <p>Just a year after they met,  Louise and April finally decided to move in together. Although it seemed a hasty decision, they thought it made perfect sense at that point in their lives. </p>
                             <p>Due to April's work, which required some schedule flexibility, it began to be increasingly difficult for them to be with one another. It was at this momment that both realized they needed (more than ever), the support and comfort that only they could give each other.</p>
                             <p>With the help of their families, they moved forward with this important decision and bought their first home together. And I must add that ... it was the best decision they ever made!</p>
                         </div>
-                    </div>
+                    </div>--}}
 
                     <div class="event_right" data-animation-direction="from-left" data-animation-delay="750">
                         <div class="event_panel">
