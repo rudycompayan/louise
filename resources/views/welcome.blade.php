@@ -241,25 +241,51 @@
                                 </div>
 
                                 <div class="item">
-                                    <a href="http://placehold.it/750x500" data-gal="prettyPhoto[gallery-timeline]" title="Our Vacations"><span class="btn btn-default2">+</span></a>
-                                    <img src="http://placehold.it/300x300" alt="" />
+                                    <a href="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/travel2-750x500.jpg') }}" data-gal="prettyPhoto[gallery-timeline]" title="Our Vacations"><span class="btn btn-default2">+</span></a>
+                                    <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/travel2.jpg') }}" alt="" />
                                 </div>
 
                                 <div class="item">
-                                    <a href="http://placehold.it/750x500" data-gal="prettyPhoto[gallery-timeline]" title="Our Vacations"><span class="btn btn-default2">+</span></a>
-                                    <img src="http://placehold.it/300x300" alt="" />
+                                    <a href="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/travel3-750x500.jpg') }}" data-gal="prettyPhoto[gallery-timeline]" title="Our Vacations"><span class="btn btn-default2">+</span></a>
+                                    <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/travel3.jpg') }}" alt="" />
                                 </div>
                                 <div class="item">
-                                    <a href="http://placehold.it/750x500" data-gal="prettyPhoto[gallery-timeline]" title="Our Vacations"><span class="btn btn-default2">+</span></a>
-                                    <img src="http://placehold.it/300x300" alt="" />
+                                    <a href="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/travel4-750x500.jpg') }}" data-gal="prettyPhoto[gallery-timeline]" title="Our Vacations"><span class="btn btn-default2">+</span></a>
+                                    <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/travel4.jpg') }}" alt="" />
                                 </div>
                                 <div class="item">
-                                    <a href="http://placehold.it/750x500" data-gal="prettyPhoto[gallery-timeline]" title="Our Vacations"><span class="btn btn-default2">+</span></a>
-                                    <img src="http://placehold.it/300x300" alt="" />
+                                    <a href="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/travel5-750x500.jpg') }}" data-gal="prettyPhoto[gallery-timeline]" title="Our Vacations"><span class="btn btn-default2">+</span></a>
+                                    <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/travel5.jpg') }}" alt="" />
                                 </div>
                                 <div class="item">
-                                    <a href="http://placehold.it/750x500" data-gal="prettyPhoto[gallery-timeline]" title="Our Vacations"><span class="btn btn-default2">+</span></a>
-                                    <img src="http://placehold.it/300x300" alt="" />
+                                    <a href="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/travel6-750x500.jpg') }}" data-gal="prettyPhoto[gallery-timeline]" title="Our Vacations"><span class="btn btn-default2">+</span></a>
+                                    <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/travel6.jpg') }}" alt="" />
+                                </div>
+                                <div class="item">
+                                    <a href="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/travel7-750x500.jpg') }}" data-gal="prettyPhoto[gallery-timeline]" title="Our Vacations"><span class="btn btn-default2">+</span></a>
+                                    <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/travel7.jpg') }}" alt="" />
+                                </div>
+
+                                <div class="item">
+                                    <a href="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/travel8-750x500.jpg') }}" data-gal="prettyPhoto[gallery-timeline]" title="Our Vacations"><span class="btn btn-default2">+</span></a>
+                                    <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/travel8.jpg') }}" alt="" />
+                                </div>
+
+                                <div class="item">
+                                    <a href="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/travel9-750x500.jpg') }}" data-gal="prettyPhoto[gallery-timeline]" title="Our Vacations"><span class="btn btn-default2">+</span></a>
+                                    <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/travel9.jpg') }}" alt="" />
+                                </div>
+                                <div class="item">
+                                    <a href="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/travel10-750x500.jpg') }}" data-gal="prettyPhoto[gallery-timeline]" title="Our Vacations"><span class="btn btn-default2">+</span></a>
+                                    <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/travel10.jpg') }}" alt="" />
+                                </div>
+                                <div class="item">
+                                    <a href="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/travel11-750x500.jpg') }}" data-gal="prettyPhoto[gallery-timeline]" title="Our Vacations"><span class="btn btn-default2">+</span></a>
+                                    <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/travel11.jpg') }}" alt="" />
+                                </div>
+                                <div class="item">
+                                    <a href="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/travel12-750x500.jpg') }}" data-gal="prettyPhoto[gallery-timeline]" title="Our Vacations"><span class="btn btn-default2">+</span></a>
+                                    <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/travel12.jpg') }}" alt="" />
                                 </div>
                             </div>
                         </div>
