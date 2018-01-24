@@ -236,8 +236,8 @@
 
                             <div class="owl-carousel timeline-gallery">
                                 <div class="item">
-                                    <a href="http://placehold.it/750x500" data-gal="prettyPhoto[gallery-timeline]" title="Our Vacations"><span class="btn btn-default2">+</span></a>
-                                    <img src="http://placehold.it/300x300" alt="" />
+                                    <a href="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/travel1-750x500.jpg') }}" data-gal="prettyPhoto[gallery-timeline]" title="Our Vacations"><span class="btn btn-default2">+</span></a>
+                                    <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/travel1.jpg') }}" alt="" />
                                 </div>
 
                                 <div class="item">
