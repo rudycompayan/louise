@@ -313,7 +313,7 @@
                         <div class="event_panel">
                             <h3>11 March: She said yes!</h3>
                             <p>Louise and April had talks about the future but Louise had been long planning to take their relationship to the next level after a year and a half of being together. In a private dinner one evening, Louise, down on his knee, asked April to be his wife. And she said YES! The moment was made more special and romantic with the presence of their families and some of their closest friends.</p>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/pyFBrlyj1p0?start=4" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/SlqW8dCLFrM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
