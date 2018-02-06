@@ -632,7 +632,7 @@
                 <div class="col-sm-12">
                     <div class="section-desc center">
                         <h3 class="gallery-desc">We would love to see the wedding through your eyes.<br>Use <strong>Twitter</strong> and <strong>Instagram</strong> to share the best moments with us.</h3>
-                        <h1>#AprilandLouise</h1>
+                        <h1>#LAbubuchacha</h1>
                     </div>
                 </div>
             </div>
