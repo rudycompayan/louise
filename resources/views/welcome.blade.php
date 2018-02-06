@@ -178,7 +178,10 @@
                         </div>
                     </div>
                     <h3> Louise Namoc<small>2.11.1986</small></h3>
-                    <p>Someone once told me that "when you meet the right person, you'll know." Well, I just knew. Right away, we connected  in a way that left me feeling whole and complete.<br><br> Louise has a truly amazing heart and I love how genuine and balanced he is about everything.<br><br>I am so incredibly blessed and excited to spend everyday for the rest of my life with my best friend!</p>
+                    <p>I prayed for a good man to come across my path. Yet God has blessed me with no less than the best.
+                        <br><br> Louise if a package of humor, wonderful heart and boundless patience. As I always tell him, “Thank you for being my answered prayer and for continuing to fulfill it everyday.”
+                        <br><br>I can’t wait to share every waking day of my life with him.
+                    </p>
                 </div>
             </div>
         </div>
@@ -203,36 +206,41 @@
         <div class="container">
             <div class="row">
                 <div class="timeline">
-                    <div class="year" data-animation-direction="from-top" data-animation-delay="250"><span class="ribbon">2014</span></div>
+                    <div class="year" data-animation-direction="from-top" data-animation-delay="250"><span class="ribbon">2015</span></div>
 
                     <div class="event_left" data-animation-direction="from-right" data-animation-delay="250">
                         <div class="event_panel">
-                            <h3>03 May: He saw Her</h3>
-                            <p> Louise and April crossed paths multiple times in college, but it wasn't until after  Louise graduated that they met through mutual friends from Oregon State University. The first night they officially met was at Kell's Irish Pub, downtown Portland.</p>
-                            <p> Louise spotted April and asked their mutual friend Tom about her. At the end of the night, Tom insisted that  Louise and April talk on the phone, so he called April, handed  Louise the phone, and the rest is history...</p>
+                            <h3>20 AUGUST: HOW DID THEY MEET?</h3>
+                            <p> As no millennials as they are, Louise and April crossed paths in an unconventional way through the dating site, Tinder. After numerous choices of left swipes and accidental right swipes, their chat box popped up. And that’s how their love story began.
+                            </p>
                         </div>
                     </div>
 
                     <div class="event_right" data-animation-direction="from-left" data-animation-delay="550">
                         <div class="event_panel">
-                            <h3>10 June: The First date</h3>
-                            <p> Louise took April to Thirst Wine Bar on the Willamette River for their first date in June of 2014, just before Sahra went back to OSU for her last year of school. </p>
-                            <p>After dinner and drinks, they decided to walk the docks on the Portland Waterfront, but April couldn't even imagine what awaited her.  Louise had also planned a romantic boat trip that turned out to be one of the most fun and unforgettable moments of their lives.</p>
+                            <h3>23 AUGUST: The First date</h3>
+                            <p> After a couple of days, they exchanged numbers and the connection continued. Lucky for April, Louise did not lose will and heart to pursue their first meet up.</p>
+                            <p>They decided to meet first in Chapel of San Pedro Calungsod and attended Sunday mass together – saying little prayers for a potential significant other.</p>
+                            <p>Such first meeting was significant to Louise and April hence they decided to recite their vows on their journey to forever on the very same church.</p>
                         </div>
                     </div>
 
                     <div class="event_left" data-animation-direction="from-right" data-animation-delay="350">
                         <div class="event_panel videoEmbed">
-                            <h3>28 June: The First Kiss</h3>
-                            <p> Louise was extremely nervous. He was afraid to expose his feelings to April, but didn’t want to risk staying in the friend zone. So it was now or never! After all, April was the one.  After a pleasant walk in the park, it was time to say goodbye. Just as she started to walk away from him, he grabbed her waist and pulled her close. Then, he kissed her with passion. "It was about time!" she said. It was...PERFECT!</p>
-                            <img src="http://placehold.it/750x520" alt="" />
+                            <h3>22 september: ON BECOMING A COUPLE</h3>
+                            <p>Right from the very beginning, Louise and April knew who and what they wanted in life. Their personalities complementary matched like jigsaw puzzle – Louise was reserved with a man of few words while April was chatty who talks about anything under the sun. And the ultimate turn on factor towards each other is their mutual faith in the Lord and enduring love towards family.
+                            </p>
+                            <p>They knew that what they have is more than “like each other”, so they made it official as a couple.
+                            </p>
                         </div>
                     </div>
 
-                    <div class="event_right" data-animation-direction="from-left" data-animation-delay="650">
+                    <div class="year" data-animation-direction="from-top" data-animation-delay="250"><span class="ribbon">2017</span></div>
+
+                    <div class="event_left" data-animation-direction="from-left" data-animation-delay="650">
                         <div class="event_panel">
-                            <h3>19 November: The First Vacations</h3>
-                            <p>They had taken overnight trips before, but this was their first huge vacations outside the USA. April and  Louise travelled to the Baltic region and visited a number of countries including Iceland, Finland, Den Louise, Russia, Poland and Germany . It was a 24 day fabulous trip! It was super intense but so rewarding for both. </p>
+                            <h3>2015-2017: WANDERING COUPLE</h3>
+                            <p>Louise and April believe that once in a while adventure is worthwhile. So they made trips to both in our own wonderful country to other neighboring countries. And they dream on travelling the whole globe one continent at a time.</p>
 
                             <div class="owl-carousel timeline-gallery">
                                 <div class="item">
@@ -291,21 +299,20 @@
                         </div>
                     </div>
 
-                    <div class="year" data-animation-direction="from-top" data-animation-delay="250"><span class="ribbon">2015</span></div>
+                   {{-- <div class="year" data-animation-direction="from-top" data-animation-delay="250"><span class="ribbon">2017</span></div>--}}
 
                     {{--<div class="event_left" data-animation-direction="from-right" data-animation-delay="450">
                         <div class="event_panel">
-                            <h3>14 April: They moved together</h3>
-                            <p>Just a year after they met,  Louise and April finally decided to move in together. Although it seemed a hasty decision, they thought it made perfect sense at that point in their lives. </p>
-                            <p>Due to April's work, which required some schedule flexibility, it began to be increasingly difficult for them to be with one another. It was at this momment that both realized they needed (more than ever), the support and comfort that only they could give each other.</p>
-                            <p>With the help of their families, they moved forward with this important decision and bought their first home together. And I must add that ... it was the best decision they ever made!</p>
+                            <h3>2015-2017: WANDERING COUPLE</h3>
+                            <p>Louise and April believe that once in a while adventure is worthwhile. So they made trips to both in our own wonderful country to other neighboring countries. And they dream on travelling the whole globe one continent at a time.
+                            </p>
                         </div>
                     </div>--}}
 
                     <div class="event_right" data-animation-direction="from-left" data-animation-delay="750">
                         <div class="event_panel">
-                            <h3>04 July: She said yes!</h3>
-                            <p>So how did  Louise pop the question? On a Cruise ... off the shore ... of the Cayman Islands! (YES!) On their way down to dinner with the Ship's Captain,  Louise's nerves got the best of him and he pulled April back to the room and straight onto the balcony for the best proposal a girl could ask for!</p>
+                            <h3>11 March: She said yes!</h3>
+                            <p>Louise and April had talks about the future but Louise had been long planning to take their relationship to the next level after a year and a half of being together. In a private dinner one evening, Louise, down on his knee, asked April to be his wife. And she said YES! The moment was made more special and romantic with the presence of their families and some of their closest friends.</p>
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/pyFBrlyj1p0?start=4" allowfullscreen></iframe>
                         </div>
                     </div>
