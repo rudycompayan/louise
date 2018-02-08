@@ -163,7 +163,10 @@
                         </div>
                     </div>
                     <h3>April Navales<small>4.8.1990</small></h3>
-                    <p>April is amazing. When I first met her I knew she was amazing and every passing day reminds me of just how amazing she is!<br><br>I really love her incredibly unique blend of talents, interests, and personality. She's a talented artist, always excited about trying new things, and a genuinely loving person.<br><br>She's everything I've always dreamed of and I'm so excited to spend the rest of my life with her!</p>
+                    <p>It was on August 20 2015 that I found the Emerald in my life and her name was April Mae. The first time I laid my eyes on her, it made me smile from a far. I knew that this girl has a unique charm that would suit my personality.
+                        <br><br>
+                        April Mae is an incredible woman. She is enthusiastic and I never get bored talking to her the first time we meet until today. I am always carefree when I am with her. I fell in love with her personality for being family oriented, sweet, caring and committed.<br>
+                        <br>I consider her my answered prayer. Everyday I thank God that I meet her. I am excited to spend my life with her as my wife, best friend and forever bubuchacha.</p>
                 </div>
                 <div class="story-elem col-sm-4" data-animation-direction="from-right" data-animation-delay="100">
                     <div class="balloon-right" data-animation-direction="from-bottom" data-animation-delay="900">Me too!</div>
