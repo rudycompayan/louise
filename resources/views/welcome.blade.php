@@ -163,10 +163,10 @@
                         </div>
                     </div>
                     <h3>April Navales<small>4.8.1990</small></h3>
-                    <p>It was on August 20 2015 that I found the Emerald in my life and her name was April Mae. The first time I laid my eyes on her, it made me smile from a far. I knew that this girl has a unique charm that would suit my personality.
+                    <p>The first time I laid my eyes on her, it made me smile from a far. I knew that I found the Emerald of my life and her name is April Mae.
                         <br><br>
-                        April Mae is an incredible woman. She is enthusiastic and I never get bored talking to her the first time we meet until today. I am always carefree when I am with her. I fell in love with her personality for being family oriented, sweet, caring and committed.<br>
-                        <br>I consider her my answered prayer. Everyday I thank God that I meet her. I am excited to spend my life with her as my wife, best friend and forever bubuchacha.</p>
+                        April is an incredible woman. She is enthusiastic and I never get bored talking to her from the first time we met until today. I am always carefree when I am with her. I fell in love with her personality - family oriented, sweet, caring and committed.<br>
+                        <br>I consider her my answered prayer. Everyday I thank God I have her. I am excited to spend my life with her as my wife, best friend and forever bubuchacha.</p>
                 </div>
                 <div class="story-elem col-sm-4" data-animation-direction="from-right" data-animation-delay="100">
                     <div class="balloon-right" data-animation-direction="from-bottom" data-animation-delay="900">Me too!</div>
@@ -182,7 +182,8 @@
                     </div>
                     <h3> Louise Namoc<small>2.11.1986</small></h3>
                     <p>I prayed for a good man to come across my path. Yet God has blessed me with no less than the best.
-                        <br><br> Louise if a package of humor, wonderful heart and boundless patience. As I always tell him, “Thank you for being my answered prayer and for continuing to fulfill it everyday.”
+                        <br><br> Louise is a package of humor, wonderful heart and boundless patience. As I always tell him,
+                        “Thank you for being my answered prayer and for continuing to fulfill it everyday.”
                         <br><br>I can’t wait to share every waking day of my life with him.
                     </p>
                 </div>
