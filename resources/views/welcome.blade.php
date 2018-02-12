@@ -145,7 +145,7 @@
                 <div class="col-sm-12">
                     <h1 class="section-title">Our Love Story...</h1>
                     <p class="section-desc">
-                        If we had to tell you one thing about us... it would be that we're so thankful. Thankful that God brought us together.  In life you interact with a lot of<br>different people, but only once in a lifetime do you find someone who is your perfect match. We're so excited to be getting married and most of all<br>excited to share our lives with one another. We are also grateful for the support of our family and friends over the past two years and feel blessed<br>to have you all in our lives. We look forward to sharing this special moment with you!
+                        In life, there are no accidental meetings between souls. With that, we are very much thankful that God brought us together. We interact with a lot of different people, but only once in a lifetime do we find someone who is our perfect match. We're so excited to be getting married and most of all excited to share our lives with one another. We are also grateful for the support of our family and friends and feel blessed to have you all in our lives. We look forward to sharing this special moment with you!
                     </p>
                 </div>
             </div>

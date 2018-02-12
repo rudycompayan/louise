@@ -1,4 +1,4 @@
-@extends('layouts.pals')
+@extends('layouts.pals')
 
 @section('content')
     <nav class="navbar navbar-default" id="navbar">
