@@ -230,7 +230,7 @@
                             <div class="owl-carousel timeline-gallery">
                                 <div class="item">
                                     <a href="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/first-date1-750x500.jpg') }}" data-gal="prettyPhoto" title="Our First Date"><span class="btn btn-default2">+</span></a>
-                                    <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/first-date1-300X300.jpg') }}" alt="" />
+                                    <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/first-date1.jpg') }}" alt="" />
                                 </div>
                             </div>
 
