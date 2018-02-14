@@ -226,6 +226,14 @@
                             <p> After a couple of days, they exchanged numbers and the connection continued. Lucky for April, Louise did not lose will and heart to pursue their first meet up.</p>
                             <p>They decided to meet first in Chapel of San Pedro Calungsod and attended Sunday mass together – saying little prayers for a potential significant other.</p>
                             <p>Such first meeting was significant to Louise and April hence they decided to recite their vows on their journey to forever on the very same church.</p>
+
+                            <div class="owl-carousel timeline-gallery">
+                                <div class="item">
+                                    <a href="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/first-date1-750x500.jpg') }}" data-gal="prettyPhoto" title="Our First Date"><span class="btn btn-default2">+</span></a>
+                                    <img src="{{ \Illuminate\Support\Facades\URL::asset('lilac/images/first-date1-300X300.jpg') }}" alt="" />
+                                </div>
+                            </div>
+
                         </div>
                     </div>
 
