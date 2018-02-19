@@ -48,6 +48,10 @@
             background-position-x: 45%;
             background-position-y: 55%;
         }
+
+        #gift-list {
+            width: 100%;
+        }
     </style>
 
 </head>
@@ -605,7 +609,7 @@
                                 <a href="#" class="img"><img src="lilac/images/target.png" alt="Target" /></a>
                             </div>
                         </li>
-                        <li id="help-wedding" data-animation-direction="from-bottom" data-animation-delay="450">
+                        <!--li id="help-wedding" data-animation-direction="from-bottom" data-animation-delay="450">
                             <i class="fa fa-glass"></i><br>
                             <h3>Want to help<br>with the wedding</h3>
                             <div class="info">
@@ -622,7 +626,7 @@
                                 <br>
                                 <a href="#" id="otheramount" class="btn btn-default2">Other Amount</a>
                             </div>
-                        </li>
+                        </li-->
                     </ul>
                 </div>
             </div>
@@ -643,7 +647,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="section-desc center">
-                        <h3 class="gallery-desc">We would love to see the wedding through your eyes.<br>Use <strong>Twitter</strong> and <strong>Instagram</strong> to share the best moments with us.</h3>
+                        <h3 class="gallery-desc">We would love to see the wedding through your eyes.<br>Use <strong>Facebook</strong> and <strong>Instagram</strong> to share the best moments with us.</h3>
                         <h1>#LAbubuchacha</h1>
                     </div>
                 </div>
@@ -654,7 +658,7 @@
             <div class="gallery-left"></div>
             <div class="gallery-right"></div>
 
-            <div class="gallery-scroller">
+            <!--div class="gallery-scroller">
                 <ul>
                     <li>
                         <span><a href="http://placehold.it/750x500" data-gal="prettyPhoto[gallery]" title="Wedding Photos"><i class="fa fa-link"></i></a></span>
@@ -663,54 +667,54 @@
 
                     <li class="instagram"></li> <!-- The list item with class "instagram" will be automatically populated with an Instagram photo -->
 
-                    <li>
+                    <!--li>
                         <span><a href="http://placehold.it/750x500" data-gal="prettyPhoto[gallery]" title="Wedding Photos"><i class="fa fa-link"></i></a></span>
                         <img src="http://placehold.it/380x380" alt="" />
                     </li>
 
                     <li class="instagram"></li> <!-- The list item with class "instagram" will be automatically populated with an Instagram photo -->
 
-                    <li class="tweet"></li> <!-- The list item with class "tweet" will be automatically populated with an Twitter post -->
+                    <!--li class="tweet"></li> <!-- The list item with class "tweet" will be automatically populated with an Twitter post -->
 
-                    <li class="instagram"></li> <!-- The list item with class "instagram" will be automatically populated with an Instagram photo -->
+                    <!--li class="instagram"></li> <!-- The list item with class "instagram" will be automatically populated with an Instagram photo -->
 
-                    <li>
+                    <!--li>
                         <span><a href="http://placehold.it/750x500" data-gal="prettyPhoto[gallery]" title="Wedding Photos"><i class="fa fa-link"></i></a></span>
                         <img src="http://placehold.it/380x380" alt="" />
                     </li>
 
                     <li class="tweet"></li> <!-- The list item with class "tweet" will be automatically populated with an Twitter post -->
-                </ul>
+                <!--/ul>
                 <ul>
                     <li class="instagram"></li> <!-- The list item with class "instagram" will be automatically populated with an Instagram photo -->
 
-                    <li class="tweet"></li> <!-- The list item with class "tweet" will be automatically populated with an Twitter post -->
+                    <!--li class="tweet"></li> <!-- The list item with class "tweet" will be automatically populated with an Twitter post -->
 
-                    <li class="instagram"></li> <!-- The list item with class "instagram" will be automatically populated with an Instagram photo -->
+                    <!--li class="instagram"></li> <!-- The list item with class "instagram" will be automatically populated with an Instagram photo -->
 
-                    <li>
+                    <!--li>
                         <span><a href="http://placehold.it/750x500" data-gal="prettyPhoto[gallery]" title="Wedding Photos"><i class="fa fa-link"></i></a></span>
                         <img src="http://placehold.it/380x380" alt="" />
                     </li>
 
                     <li class="instagram"></li> <!-- The list item with class "instagram" will be automatically populated with an Instagram photo -->
 
-                    <li>
+                    <!--li>
                         <span><a href="http://placehold.it/750x500" data-gal="prettyPhoto[gallery]" title="Wedding Photos"><i class="fa fa-link"></i></a></span>
                         <img src="http://placehold.it/380x380" alt="" />
                     </li>
 
                     <li class="tweet"></li> <!-- The list item with class "tweet" will be automatically populated with an Twitter post -->
 
-                    <li class="instagram"></li> <!-- The list item with class "instagram" will be automatically populated with an Instagram photo -->
-                </ul>
-            </div>
+                    <!--li class="instagram"></li> <!-- The list item with class "instagram" will be automatically populated with an Instagram photo -->
+                <!--/ul>
+            </div-->
         </div>
     </section>
     <!-- END GALLERY SECTION -->
 
     <!-- BEGIN BLOG SECTION -->
-    <section id="blog" class="divider-bottom-2 divider-pattern divider-bg-color" style="margin-top: 147px !important;">
+    <!--section id="blog" class="divider-bottom-2 divider-pattern divider-bg-color" style="margin-top: 147px !important;">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -1016,7 +1020,7 @@
                     <!-- BEGIN SOCIAL ICONS -->
                     <ul class="sn-icons">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <!--li><a href="#"><i class="fa fa-twitter"></i></a></li-->
                         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                     </ul>
                     <!-- END SOCIAL ICONS -->
