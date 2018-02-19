@@ -4953,6 +4953,7 @@ div.dark_square #pp_full_res .pp_inline {
   }
 }
 /* Retina Images ***************************************************/
+/*
 @media (min-resolution: 144dpi) {
   .divider-bottom-1 {
     padding-bottom: 580px;
@@ -4976,3 +4977,4 @@ div.dark_square #pp_full_res .pp_inline {
     background-image: url('../images/divider_5@2x.png');
   }
 }
+*/
