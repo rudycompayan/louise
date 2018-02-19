@@ -604,10 +604,10 @@
                         <li id="gift-list" data-animation-direction="from-bottom" data-animation-delay="250">
                             <i class="fa fa-gift"></i><br>
                             <h3>Check our<br>wedding gift list</h3>
-                            <div class="info">
+                            <!--div class="info">
                                 <a href="#" class="img"><img src="lilac/images/macys.png" alt="Macy's" /></a>
                                 <a href="#" class="img"><img src="lilac/images/target.png" alt="Target" /></a>
-                            </div>
+                            </div-->
                         </li>
                         <!--li id="help-wedding" data-animation-direction="from-bottom" data-animation-delay="450">
                             <i class="fa fa-glass"></i><br>
@@ -647,7 +647,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="section-desc center">
-                        <h3 class="gallery-desc">We would love to see the wedding through your eyes.<br>Use <strong>Facebook</strong> and <strong>Instagram</strong> to share the best moments with us.</h3>
+                        <h3 class="gallery-desc">We would love to see the wedding through your eyes.<br>Use <strong>Facebook</strong> and <strong>Instagram</strong> to share the best moments with us by using hashtag</h3>
                         <h1>#LAbubuchacha</h1>
                     </div>
                 </div>
