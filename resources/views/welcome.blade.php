@@ -603,7 +603,7 @@
                     <ul class="wedding-gifts clearfix">
                         <li id="gift-list" data-animation-direction="from-bottom" data-animation-delay="250">
                             <i class="fa fa-gift"></i><br>
-                            <h3>With all that we have we’ve been truly blessed your presence at our wedding is our only request but if you decide to give nonetheless monetary gifts for our future is one we suggest.</h3>
+                            <h3>WITH ALL THAT WE HAVE WE’VE BEEN TRULY BLESSED, YOUR PRESENCE AT OUR WEDDING IS OUR ONLY REQUEST. BUT IF YOU DECIDE TO GIVE NONETHELESS, MONETARY GIFTS FOR OUR FUTURE IS ONE WE SUGGEST.</h3>
                             <!--div class="info">
                                 <a href="#" class="img"><img src="lilac/images/macys.png" alt="Macy's" /></a>
                                 <a href="#" class="img"><img src="lilac/images/target.png" alt="Target" /></a>
