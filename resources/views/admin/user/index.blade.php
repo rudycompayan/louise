@@ -110,7 +110,7 @@
     <script>
         $('.btnUserDelete').click(function (e) {
             e.preventDefault();
-            $id = $(this).data('id');
+            var $id = $(this).data('id');
 
             $('#deleteId').val($id);
 
