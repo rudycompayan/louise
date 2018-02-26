@@ -184,7 +184,8 @@ class UserController extends Controller
      */
     public function delete(Request $request)
     {
-        $user = $this->userRepository->find($request->input('id'));
+        $user = User::find($request->input('id'));
+        $user->profile()->delete();
         $user->delete();
 
         return redirect()->route('admin.user.index');

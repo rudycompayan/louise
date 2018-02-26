@@ -50,9 +50,11 @@
                                 <td>{{ $user->gender }}</td>
                                 <td>{{ $user->age }}</td>
                                 <td>
+                                  @if($user->fb_profile)
                                     <input type="hidden" id="link{{ $user->user_id }}" value="{{ $user->fb_profile }}">
                                     <a href="#"
-                                       class="btn btn-success btn-xs cc_copy" id="{{ $user->user_id }}" title="Copy Link"><i class="fa fa-copy"></i></a>
+                                       class="btn btn-success btn-xs cc_copy" id="{{ $user->user_id }}" title="Copy Link" onclick="copy_link({{ $user->user_id }});"><i class="fa fa-copy"></i></a>
+                                  @endif
                                     <a href="{{ route('admin.user.edit', $user->user_id) }}"
                                        class="btn btn-success btn-xs" title="Edit User"><i class="fa fa-edit"></i></a>
                                     <a href="#" class="btn btn-danger btn-xs btnUserDelete"
@@ -116,6 +118,7 @@
 
         $(".cc_copy").click(function(e) {
             e.preventDefault();
+            /*
             var url = $("#link"+$(this).attr('id')).val();
             var $temp = $("<input>");
             $("body").append($temp);
@@ -124,6 +127,19 @@
             $temp.remove();
             $(this).children().removeClass('fa-copy');
             $(this).children().addClass('fa-check');
+            */
         });
+
+        function copy_link(id)
+        {
+          var url = $("#link"+id).val();
+          var $temp = $("<input>");
+          $("body").append($temp);
+          $temp.val(url).select();
+          document.execCommand("copy");
+          $temp.remove();
+          $("#"+id).children().removeClass('fa-copy');
+          $("#"+id).children().addClass('fa-check');
+        }
     </script>
 @endsection

@@ -128,6 +128,7 @@
                                                class="form-control"
                                                data-validation="length"
                                                data-validation-length="1-20"
+                                               value="0"
                                         >
                                     </div>
                                 </div>
