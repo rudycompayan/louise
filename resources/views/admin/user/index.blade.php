@@ -60,7 +60,7 @@
                                     <a href="#" class="btn btn-danger btn-xs btnUserDelete"
                                        data-id="{{ $user->user_id }}"
                                        data-toggle="modal"
-                                       data-target="#deleteModal" title="Delete User"><i class="fa fa-remove"></i></a>
+                                       data-target="#deleteModal" title="Delete User" onclick="set_modal({{ $user->user_id }});"><i class="fa fa-remove"></i></a>
                                 </td>
                             </tr>
                         @endforeach
@@ -109,12 +109,14 @@
 @section('scripts')
     <script>
       $(document).ready(function() {
+
         $('.btnUserDelete').click(function (e) {
             e.preventDefault();
+            /*
             var $id = $(this).data('id');
             alert($id);
             $('#deleteId').val($id);
-
+            */
         });
 
         $(".cc_copy").click(function(e) {
@@ -143,5 +145,11 @@
           $("#"+id).children().removeClass('fa-copy');
           $("#"+id).children().addClass('fa-check');
         }
+
+        function set_modal(id)
+        {
+            $('#deleteId').val(id);
+        }
+
     </script>
 @endsection
