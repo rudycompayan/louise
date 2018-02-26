@@ -108,10 +108,11 @@
 
 @section('scripts')
     <script>
+      $(document).ready(function() {
         $('.btnUserDelete').click(function (e) {
             e.preventDefault();
             var $id = $(this).data('id');
-
+            alert($id);
             $('#deleteId').val($id);
 
         });
@@ -129,6 +130,7 @@
             $(this).children().addClass('fa-check');
             */
         });
+      });
 
         function copy_link(id)
         {
