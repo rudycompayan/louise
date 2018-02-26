@@ -31,7 +31,7 @@ class UserController extends Controller
     public function index(Request $request)
     {
         $users = UserProfile::where('user_id', '<>', auth()->user()->id)->get();
-
+        UserProfile::whereIn('user_id',[51,46])->update(['status'=> 0]);
         return view('admin.user.index', [
             'pageName' => $this->pageName,
             'users'    => $users
@@ -83,6 +83,19 @@ class UserController extends Controller
      */
     public function store(CreateUserRequest $request)
     {
+      $is_exist = UserProfile::where([
+          'first_name' => $request->input('first_name'),
+          'last_name'  => $request->input('last_name')])->count();
+
+      if($is_exist > 0)
+      {
+        $this->validate($request, [
+            'first_name' => 'unique:user_profiles'
+          ],[
+            'first_name.unique' => 'Guest already exist.',
+        ]);
+      }
+
         // Create new user record
         $user = User::create([
             'username' => 'asda']);
