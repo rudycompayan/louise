@@ -31,7 +31,7 @@ class UserController extends Controller
     public function index(Request $request)
     {
         $users = UserProfile::where('user_id', '<>', auth()->user()->id)->get();
-        UserProfile::whereIn('user_id',[51,46])->update(['status'=> 0]);
+
         return view('admin.user.index', [
             'pageName' => $this->pageName,
             'users'    => $users

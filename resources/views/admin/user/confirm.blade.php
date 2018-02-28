@@ -51,8 +51,8 @@
                                 <td>{{ $user->age }}</td>
                                 <td>
                                     <input type="hidden" id="link{{ $user->user_id }}" value="{{ $user->fb_profile }}">
-                                    <a href="#"
-                                       class="btn btn-success btn-xs cc_copy" id="{{ $user->user_id }}" title="Copy Link"><i class="fa fa-copy"></i></a>
+                                    <!--a href="#"
+                                       class="btn btn-success btn-xs cc_copy" id="{{ $user->user_id }}" title="Copy Link"><i class="fa fa-copy"></i></a-->
                                     <a href="{{ route('admin.user.edit', $user->user_id) }}"
                                        class="btn btn-success btn-xs" title="Edit User"><i class="fa fa-edit"></i></a>
                                     <a href="#" class="btn btn-danger btn-xs btnUserDelete"
