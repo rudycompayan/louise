@@ -1007,7 +1007,7 @@
 
                             <section class="highlighted rsvp-details">
                                 <div class="col-sm-12">
-                                    <textarea name="Message" placeholder="LEAVE A NOTE (OPTIONAL)" class="form-control"></textarea>
+                                    <textarea name="Message" id="note" placeholder="LEAVE A NOTE (OPTIONAL)" class="form-control"></textarea>
                                     <div class="form_status_message"></div>
                                 </div>
                             </section>
@@ -1888,6 +1888,7 @@
 
                     $(".submit_form").on('click', function (e) {
                         e.preventDefault();
+                        $('#note').val('');
 
                         var $submit_btn = $(this),
                             $form = $submit_btn.closest("form"),
