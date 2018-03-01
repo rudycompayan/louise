@@ -1074,6 +1074,8 @@
         s.parentNode.insertBefore(g,s)}(document,'script'));
 
 
+
+        $('.rsvp-details').scrollTop( $('.rsvp-details').height() )
     /*
      * Author: Wisely Themes
      * Author URI: http://themeforest.net/user/wiselythemes
@@ -1105,6 +1107,7 @@
                 else
                 {
                     $('.rsvp-details').show();
+                    $('html, body').animate({scrollTop:$(document).height()}, 'slow');
                     return false;
                 }
             });
