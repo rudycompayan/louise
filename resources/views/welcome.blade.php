@@ -961,23 +961,23 @@
                     <form id="form-rsvp" method="post" action="#" id="rsvp">
                         <div class="form-wrap">
                             <section class="highlighted">
+
+
+                              <div class="row">
                                 <h3><i class="icon icon-arrow-right"></i>Will you be attending the wedding?<i class="icon icon-arrow-left"></i></h3>
                                 <div data-value="attending_wedding" class="radio-lilac col-sm-12">
                                     <button class="btn btn-default" data-value="yes"><i class="fa fa-smile-o"></i>Yes</button>
                                     <button class="btn btn-default" data-value="no"><i class="fa fa-frown-o"></i>No</button>
                                 </div>
-                                <!-- <h2 class="section-title">Attire</h2> -->
-                                <h3 class="section-title"><i class="icon icon-arrow-right"></i>&nbsp;Attire&nbsp;<i class="icon icon-arrow-left"></i></h3>
-                                <h4>Semi-formal to formal</h4>
+                              </div>
 
-                                <h3 class="section-title" style="margin-top:25px"><i class="icon icon-arrow-right"></i>&nbsp;Theme&nbsp;<i class="icon icon-arrow-left"></i></h3>
-                                <h4>Starry, Starry Night <br/>(Navy Blue and Silver with a touch of gold)</h4>
-<!--
-                                <h2 class="section-title">Theme: <i class="icon icon-arrow-right"></i>&nbsp;Starry, Starry Night&nbsp;<i class="icon icon-arrow-left"></i></h3>
-                                <h4 class="section-title">&nbsp;<i class="icon icon-arrow-right"></i>&nbsp;(Navy Blue and Silver with a touch of gold)&nbsp;<i class="icon icon-arrow-left"></i></h3> -->
+                                <div class="row">
+                                  <h3 class="section-title"><i class="icon icon-arrow-right"></i>&nbsp;Attire&nbsp;<i class="icon icon-arrow-left"></i></h3>
+                                  <h4>Semi-formal to formal</h4>
 
-
-
+                                  <h3 class="section-title" style="margin-top:25px"><i class="icon icon-arrow-right"></i>&nbsp;Theme&nbsp;<i class="icon icon-arrow-left"></i></h3>
+                                  <h4>Starry, Starry Night <br/>(Navy Blue and Silver with a touch of gold)</h4>
+                                </div>
 
                                 {{--<div class="col-sm-6">
                                     <input type="text" name="Name" placeholder="YOUR NAME*" class="form-control required fromName" />
