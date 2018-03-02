@@ -36,6 +36,7 @@
                             <th>Last Name</th>
                             <th>Phone Number</th>
                             <th>Gender</th>
+                            <th id="date-confirmed">Date Confirmed</th>
                             <th>Max Add-on</th>
                             <th style="width: 150px;"></th>
                         </tr>
@@ -48,6 +49,7 @@
                                 <td>{{ $user->last_name }}</td>
                                 <td>{{ $user->phone }}</td>
                                 <td>{{ $user->gender }}</td>
+                                <td>{{ date('m/d/Y H:i A', strtotime($user->updated_at)) }}</td>
                                 <td>{{ $user->age }}</td>
                                 <td>
                                     <input type="hidden" id="link{{ $user->user_id }}" value="{{ $user->fb_profile }}">
@@ -124,6 +126,11 @@
             $temp.remove();
             $(this).children().removeClass('fa-copy');
             $(this).children().addClass('fa-check');
+        });
+
+        $(document).ready(function() {
+          $('#date-confirmed').click();
+          $('#date-confirmed').click();
         });
     </script>
 @endsection
